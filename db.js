@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 
 // connection uri
-var dbURI = 'mongodb://nugen21:online14@kahana.mongohq.com:10004/app27411253';
+var dbURI = 'mongodb://nugen21:online14@ds027489.mongolab.com:27489/heroku_app27411253';
 
 // exports connect function to app.js
 exports.connect = function(){
