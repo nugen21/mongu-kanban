@@ -4,7 +4,7 @@
   "repository": "git@heroku.com:mongu-kanban.git",
   "logo": "http://mongu-kanban.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"],
-    "addons": [
+  "addons": [
     "openredis",
     "mongolab:shared-single-small"
   ]
