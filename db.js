@@ -7,7 +7,7 @@ var dbURI = 'mongodb://nugen21:online14@ds027489.mongolab.com:27489/heroku_app27
 // exports connect function to app.js
 exports.connect = function(){
 	
-	// get the database connection pool
+	// get the database connection pool............
 	mongoose.connect(dbURI);
 	
 	// DB Connection Events
