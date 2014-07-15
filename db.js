@@ -17,9 +17,9 @@ exports.connect = function(){
 	});
 	
 	// Failed to connect database
-	mongoose.connection.on('error', function(err) {
-		console.log('Failed to get connection in mongoose, err is ' + err);
-	});
+//	mongoose.connection.on('error', function(err) {
+//		console.log('Failed to get connection in mongoose, err is ' + err);
+//	});
 	
 	// When the connection has disconnected
 	mongoose.connection.on('disconnected', function() {
