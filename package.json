@@ -1,13 +1,26 @@
 {
-  "name": "KanbanBoardProject",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "mongu-kanban",
+  "version": "0.0.0",
+  "description": "This example aap is so cool",
+  "main": "app.js",
   "dependencies": {
-    "express": "3.3.7",
-    "jade": "*",
-    "mongoose": "*"
-  }
+    "express": "^3.14.0",
+    "jade": "^1.3.1",
+    "logfmt": "^1.1.2",
+    "mongoose": "^3.8.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nugen21/mongu-kanban.git"
+  },
+  "author": "mongu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nugen21/mongu-kanban/issues"
+  },
+  "homepage": "https://github.com/nugen21/mongu-kanban"
 }
