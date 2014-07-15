@@ -3,5 +3,9 @@
   "description": "A barebones Node.js app using Express 4",
   "repository": "git@heroku.com:mongu-kanban.git",
   "logo": "http://mongu-kanban.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+    "addons": [
+    "openredis",
+    "mongolab:shared-single-small"
+  ]
 }
